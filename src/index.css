@@ -3,35 +3,6 @@
   margin: 0;
 }
 
-/* Media Mixins */
-@media screen and (max-width: 480px) {
-  .formContainer .formWrapper,
-  .home .container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home .container {
-    width: 90%;
-  }
-
-  .home .sidebar .navbar .logo {
-    display: none;
-  }
-
-  .home .sidebar .user button {
-    position: absolute;
-    bottom: 10px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .home .container {
-    width: 90%;
-  }
-}
-
 /* Styles */
 .formContainer {
   background-color: #a7bcff;
@@ -105,4 +76,32 @@
   color: #5d5b8d;
   font-size: 12px;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .formContainer .formWrapper,
+  .home .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home .container {
+    width: 90%;
+  }
+
+  .home .sidebar .navbar .logo {
+    display: none;
+  }
+
+  .home .sidebar .user button {
+    position: absolute;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home .container {
+    width: 90%;
+  }
 }

@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  padding: 10px;
 }
 .input .photo {
   color: rgb(133, 133, 133);
@@ -28,6 +29,10 @@
 .input .file {
   color: rgb(250, 157, 35);
   font-size: 20px;
+  cursor: pointer;
+}
+.input .file:hover {
+  color: rgb(163, 103, 23);
 }
 
 .input button {
@@ -37,6 +42,10 @@
   background: #00000000;
   cursor: pointer;
   color: rgb(14, 163, 255);
+}
+
+.input button:hover {
+  color: rgb(20, 103, 155);
 }
 
 .input::placeholder {
